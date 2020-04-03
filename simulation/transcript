@@ -1,0 +1,672 @@
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project RISCV_simulation
+# Compile of log_pkg.vhd was successful.
+# Compile of define.vhd was successful.
+# Compile of globals.vhd was successful.
+# Compile of inverter.vhd was successful.
+# Compile of nand2.vhd was successful.
+# Compile of mux21Generic.vhd was successful.
+# Compile of 31to1mux.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aluController.vhd was successful.
+# Compile of BDU.vhd was successful.
+# Compile of controlUnit.vhd was successful.
+# Compile of IRAM.vhd was successful.
+# Compile of datamem.vhd was successful.
+# Compile of FWU.vhd was successful.
+# Compile of HDU.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of registerGeneric.vhd was successful.
+# Compile of registerEnable.vhd was successful.
+# Compile of registerFile.vhd was successful.
+# Compile of ImmediateExtender.vhd was successful.
+# Compile of fetchStage.vhd was successful.
+# Compile of decodeStage.vhd was successful.
+# Compile of executionStage.vhd was successful.
+# Compile of writebackStage.vhd was successful.
+# Compile of ifidReg.vhd was successful.
+# Compile of idexReg.vhd was successful.
+# Compile of exmemReg.vhd was successful.
+# Compile of memwbReg.vhd was successful.
+# Compile of RISC-Vdatapath.vhd was successful.
+# Compile of RISC-V.vhd was successful.
+# Compile of tb3to1mux.vhd was successful.
+# Compile of tb_datamem.vhd was successful.
+# Compile of tb_decodeStage.vhd was successful.
+# Compile of tbalu.vhd was successful.
+# Compile of tbaluController.vhd was successful.
+# Compile of tbBDU.vhd was successful.
+# Compile of tbcontrolUnit.vhd was successful.
+# Compile of tbexecutionStage.vhd was successful.
+# Compile of tbexmemReg.vhd was successful.
+# Compile of tbFetchStage.vhd was successful.
+# Compile of tbFWU.vhd was successful.
+# Compile of tbHDU.vhd was successful.
+# Compile of tbidexReg.vhd was successful.
+# Compile of tbifidReg.vhd was successful.
+# Compile of tbImmediateExtender.vhd was successful.
+# Compile of tbIRAM.vhd was successful.
+# Compile of tbmemwbReg.vhd was successful.
+# Compile of tbmux21Generic.vhd was successful.
+# Compile of tbregisterEnable.vhd was successful.
+# Compile of tbregisterFile.vhd was successful.
+# Compile of tbregisterGeneric.vhd was successful.
+# Compile of tbRISC-V.vhd was successful.
+# Compile of tbwritebackStage.vhd was successful.
+# 53 compiles, 0 failed with no errors. 
+vsim -novopt work.cfg_tb_risc_v
+# vsim -novopt work.cfg_tb_risc_v 
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Refreshing ./work.log_pkg(body)
+# Loading work.log_pkg(body)
+# Refreshing ./work.globals
+# Loading work.globals
+# Refreshing ./work.define
+# Loading work.define
+# Refreshing ./work.cfg_tb_risc_v
+# Loading work.cfg_tb_risc_v
+# Refreshing ./work.tbrisc_v(test)
+# Loading work.tbrisc_v(test)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Refreshing ./work.cfg_riscv_structural
+# Loading work.cfg_riscv_structural
+# Refreshing ./work.risc_v(structural)
+# Loading work.risc_v(structural)
+# Refreshing ./work.cfg_riscvdatapath_structural
+# Loading work.cfg_riscvdatapath_structural
+# Refreshing ./work.risc_vdatapath(structural)
+# Loading work.risc_vdatapath(structural)
+# Refreshing ./work.cfg_fetchstage_structural
+# Loading work.cfg_fetchstage_structural
+# Refreshing ./work.fetchstage(structural)
+# Loading work.fetchstage(structural)
+# Refreshing ./work.cfg_ifidreg_structural
+# Loading work.cfg_ifidreg_structural
+# Refreshing ./work.ifidreg(structural)
+# Loading work.ifidreg(structural)
+# Refreshing ./work.cfg_register_enable
+# Loading work.cfg_register_enable
+# Refreshing ./work.register_enable(beahvioral)
+# Loading work.register_enable(beahvioral)
+# Refreshing ./work.cfg_decodestage_structural
+# Loading work.cfg_decodestage_structural
+# Refreshing ./work.decodestage(structural)
+# Loading work.decodestage(structural)
+# Refreshing ./work.cfg_register_file_behavioral
+# Loading work.cfg_register_file_behavioral
+# Refreshing ./work.register_file(behavioral)
+# Loading work.register_file(behavioral)
+# Refreshing ./work.cfg_bdu_behavioral
+# Loading work.cfg_bdu_behavioral
+# Refreshing ./work.bdu(behavioral)
+# Loading work.bdu(behavioral)
+# Refreshing ./work.cfg_immextender_behavioral
+# Loading work.cfg_immextender_behavioral
+# Refreshing ./work.immextender(behavioral)
+# Loading work.immextender(behavioral)
+# Refreshing ./work.cfg_alucontroller_behavioral
+# Loading work.cfg_alucontroller_behavioral
+# Refreshing ./work.alucontroller(behavioral)
+# Loading work.alucontroller(behavioral)
+# Refreshing ./work.cfg_controlunit_behavioral
+# Loading work.cfg_controlunit_behavioral
+# Refreshing ./work.controlunit(behavioural)
+# Loading work.controlunit(behavioural)
+# Refreshing ./work.hdu(behavioral)
+# Loading work.hdu(behavioral)
+# Refreshing ./work.cfg_idexreg_structural
+# Loading work.cfg_idexreg_structural
+# Refreshing ./work.idexreg(structural)
+# Loading work.idexreg(structural)
+# Refreshing ./work.cfg_register_generic_structural_sync
+# Loading work.cfg_register_generic_structural_sync
+# Refreshing ./work.register_generic(structural_sync)
+# Loading work.register_generic(structural_sync)
+# Refreshing ./work.cfg_fd_sync
+# Loading work.cfg_fd_sync
+# Refreshing ./work.fd(sync)
+# Loading work.fd(sync)
+# Refreshing ./work.cfg_executionstage_structural
+# Loading work.cfg_executionstage_structural
+# Refreshing ./work.executionstage(structural)
+# Loading work.executionstage(structural)
+# Refreshing ./work.cfg_mux21_generic_structural
+# Loading work.cfg_mux21_generic_structural
+# Refreshing ./work.mux21_generic(structural)
+# Loading work.mux21_generic(structural)
+# Refreshing ./work.cfg_iv_behavioral
+# Loading work.cfg_iv_behavioral
+# Refreshing ./work.iv(behavioral)
+# Loading work.iv(behavioral)
+# Refreshing ./work.cfg_nd2_behavioral
+# Loading work.cfg_nd2_behavioral
+# Refreshing ./work.nd2(behavioral)
+# Loading work.nd2(behavioral)
+# Refreshing ./work.cfg_mux3to1_structural
+# Loading work.cfg_mux3to1_structural
+# Refreshing ./work.mux3to1(structural)
+# Loading work.mux3to1(structural)
+# Refreshing ./work.cfg_alu_behavioral
+# Loading work.cfg_alu_behavioral
+# Refreshing ./work.alu(behavioral)
+# Loading work.alu(behavioral)
+# Refreshing ./work.cfg_fwu_behavioral
+# Loading work.cfg_fwu_behavioral
+# Refreshing ./work.fwu(behavioral)
+# Loading work.fwu(behavioral)
+# Refreshing ./work.cfg_exmemreg_structural
+# Loading work.cfg_exmemreg_structural
+# Refreshing ./work.exmemreg(structural)
+# Loading work.exmemreg(structural)
+# Refreshing ./work.cfg_memwbreg_structural
+# Loading work.cfg_memwbreg_structural
+# Refreshing ./work.memwbreg(structural)
+# Loading work.memwbreg(structural)
+# Refreshing ./work.cfg_writebackstage_structural
+# Loading work.cfg_writebackstage_structural
+# Refreshing ./work.writebackstage(structural)
+# Loading work.writebackstage(structural)
+# Refreshing ./work.cfg_datamem_behavioral
+# Loading work.cfg_datamem_behavioral
+# Refreshing ./work.datamem(behavioral)
+# Loading work.datamem(behavioral)
+# Refreshing ./work.cfg_iram_behavioral
+# Loading work.cfg_iram_behavioral
+# Refreshing ./work.iram(iram_bhe)
+# Loading work.iram(iram_bhe)
+add wave sim:/tbrisc_v/dut/draminst/*
+run 225 ns
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/fetch
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /tbrisc_v/dut/iraminst
+restart
+run 225 ns
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/fetch
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /tbrisc_v/dut/iraminst
+# Compile of log_pkg.vhd was successful.
+# Compile of define.vhd was successful.
+# Compile of globals.vhd was successful.
+# Compile of inverter.vhd was successful.
+# Compile of nand2.vhd was successful.
+# Compile of mux21Generic.vhd was successful.
+# Compile of 31to1mux.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aluController.vhd was successful.
+# Compile of BDU.vhd was successful.
+# Compile of controlUnit.vhd was successful.
+# Compile of IRAM.vhd was successful.
+# Compile of datamem.vhd was successful.
+# Compile of FWU.vhd was successful.
+# Compile of HDU.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of registerGeneric.vhd was successful.
+# Compile of registerEnable.vhd was successful.
+# Compile of registerFile.vhd was successful.
+# Compile of ImmediateExtender.vhd was successful.
+# Compile of fetchStage.vhd was successful.
+# Compile of decodeStage.vhd was successful.
+# Compile of executionStage.vhd was successful.
+# Compile of writebackStage.vhd was successful.
+# Compile of ifidReg.vhd was successful.
+# Compile of idexReg.vhd was successful.
+# Compile of exmemReg.vhd was successful.
+# Compile of memwbReg.vhd was successful.
+# Compile of RISC-Vdatapath.vhd was successful.
+# Compile of RISC-V.vhd was successful.
+# Compile of tb3to1mux.vhd was successful.
+# Compile of tb_datamem.vhd was successful.
+# Compile of tb_decodeStage.vhd was successful.
+# Compile of tbalu.vhd was successful.
+# Compile of tbaluController.vhd was successful.
+# Compile of tbBDU.vhd was successful.
+# Compile of tbcontrolUnit.vhd was successful.
+# Compile of tbexecutionStage.vhd was successful.
+# Compile of tbexmemReg.vhd was successful.
+# Compile of tbFetchStage.vhd was successful.
+# Compile of tbFWU.vhd was successful.
+# Compile of tbHDU.vhd was successful.
+# Compile of tbidexReg.vhd was successful.
+# Compile of tbifidReg.vhd was successful.
+# Compile of tbImmediateExtender.vhd was successful.
+# Compile of tbIRAM.vhd was successful.
+# Compile of tbmemwbReg.vhd was successful.
+# Compile of tbmux21Generic.vhd was successful.
+# Compile of tbregisterEnable.vhd was successful.
+# Compile of tbregisterFile.vhd was successful.
+# Compile of tbregisterGeneric.vhd was successful.
+# Compile of tbRISC-V.vhd was successful.
+# Compile of tbwritebackStage.vhd was successful.
+# 53 compiles, 0 failed with no errors. 
+restart
+# Refreshing ./work.log_pkg(body)
+# Loading work.log_pkg(body)
+# Refreshing ./work.globals
+# Loading work.globals
+# Refreshing ./work.define
+# Loading work.define
+# Refreshing ./work.cfg_tb_risc_v
+# Loading work.cfg_tb_risc_v
+# Refreshing ./work.tbrisc_v(test)
+# Loading work.tbrisc_v(test)
+# Refreshing ./work.cfg_riscv_structural
+# Loading work.cfg_riscv_structural
+# Refreshing ./work.risc_v(structural)
+# Loading work.risc_v(structural)
+# Refreshing ./work.cfg_riscvdatapath_structural
+# Loading work.cfg_riscvdatapath_structural
+# Refreshing ./work.risc_vdatapath(structural)
+# Loading work.risc_vdatapath(structural)
+# Refreshing ./work.cfg_fetchstage_structural
+# Loading work.cfg_fetchstage_structural
+# Refreshing ./work.fetchstage(structural)
+# Loading work.fetchstage(structural)
+# Refreshing ./work.cfg_ifidreg_structural
+# Loading work.cfg_ifidreg_structural
+# Refreshing ./work.ifidreg(structural)
+# Loading work.ifidreg(structural)
+# Refreshing ./work.cfg_register_enable
+# Loading work.cfg_register_enable
+# Refreshing ./work.register_enable(beahvioral)
+# Loading work.register_enable(beahvioral)
+# Refreshing ./work.cfg_decodestage_structural
+# Loading work.cfg_decodestage_structural
+# Refreshing ./work.decodestage(structural)
+# Loading work.decodestage(structural)
+# Refreshing ./work.cfg_register_file_behavioral
+# Loading work.cfg_register_file_behavioral
+# Refreshing ./work.register_file(behavioral)
+# Loading work.register_file(behavioral)
+# Refreshing ./work.cfg_bdu_behavioral
+# Loading work.cfg_bdu_behavioral
+# Refreshing ./work.bdu(behavioral)
+# Loading work.bdu(behavioral)
+# Refreshing ./work.cfg_immextender_behavioral
+# Loading work.cfg_immextender_behavioral
+# Refreshing ./work.immextender(behavioral)
+# Loading work.immextender(behavioral)
+# Refreshing ./work.cfg_alucontroller_behavioral
+# Loading work.cfg_alucontroller_behavioral
+# Refreshing ./work.alucontroller(behavioral)
+# Loading work.alucontroller(behavioral)
+# Refreshing ./work.cfg_controlunit_behavioral
+# Loading work.cfg_controlunit_behavioral
+# Refreshing ./work.controlunit(behavioural)
+# Loading work.controlunit(behavioural)
+# Refreshing ./work.hdu(behavioral)
+# Loading work.hdu(behavioral)
+# Refreshing ./work.cfg_idexreg_structural
+# Loading work.cfg_idexreg_structural
+# Refreshing ./work.idexreg(structural)
+# Loading work.idexreg(structural)
+# Refreshing ./work.cfg_register_generic_structural_sync
+# Loading work.cfg_register_generic_structural_sync
+# Refreshing ./work.register_generic(structural_sync)
+# Loading work.register_generic(structural_sync)
+# Refreshing ./work.cfg_fd_sync
+# Loading work.cfg_fd_sync
+# Refreshing ./work.fd(sync)
+# Loading work.fd(sync)
+# Refreshing ./work.cfg_executionstage_structural
+# Loading work.cfg_executionstage_structural
+# Refreshing ./work.executionstage(structural)
+# Loading work.executionstage(structural)
+# Refreshing ./work.cfg_mux21_generic_structural
+# Loading work.cfg_mux21_generic_structural
+# Refreshing ./work.mux21_generic(structural)
+# Loading work.mux21_generic(structural)
+# Refreshing ./work.cfg_iv_behavioral
+# Loading work.cfg_iv_behavioral
+# Refreshing ./work.iv(behavioral)
+# Loading work.iv(behavioral)
+# Refreshing ./work.cfg_nd2_behavioral
+# Loading work.cfg_nd2_behavioral
+# Refreshing ./work.nd2(behavioral)
+# Loading work.nd2(behavioral)
+# Refreshing ./work.cfg_mux3to1_structural
+# Loading work.cfg_mux3to1_structural
+# Refreshing ./work.mux3to1(structural)
+# Loading work.mux3to1(structural)
+# Refreshing ./work.cfg_alu_behavioral
+# Loading work.cfg_alu_behavioral
+# Refreshing ./work.alu(behavioral)
+# Loading work.alu(behavioral)
+# Refreshing ./work.cfg_fwu_behavioral
+# Loading work.cfg_fwu_behavioral
+# Refreshing ./work.fwu(behavioral)
+# Loading work.fwu(behavioral)
+# Refreshing ./work.cfg_exmemreg_structural
+# Loading work.cfg_exmemreg_structural
+# Refreshing ./work.exmemreg(structural)
+# Loading work.exmemreg(structural)
+# Refreshing ./work.cfg_memwbreg_structural
+# Loading work.cfg_memwbreg_structural
+# Refreshing ./work.memwbreg(structural)
+# Loading work.memwbreg(structural)
+# Refreshing ./work.cfg_writebackstage_structural
+# Loading work.cfg_writebackstage_structural
+# Refreshing ./work.writebackstage(structural)
+# Loading work.writebackstage(structural)
+# Refreshing ./work.cfg_datamem_behavioral
+# Loading work.cfg_datamem_behavioral
+# Refreshing ./work.datamem(behavioral)
+# Loading work.datamem(behavioral)
+# Refreshing ./work.cfg_iram_behavioral
+# Loading work.cfg_iram_behavioral
+# Refreshing ./work.iram(iram_bhe)
+# Loading work.iram(iram_bhe)
+run 225 ns
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/execution/fwuinst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/alucontr
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/decode/rf
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tbrisc_v/dut/datapathinst/fetch
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/iraminst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbrisc_v/dut/datapathinst/decode/bdu_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /tbrisc_v/dut/iraminst

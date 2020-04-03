@@ -1,0 +1,901 @@
+/home/isa11/Desktop/RISCV/src/tb_decodeStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tb_decodeStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbdecodestage
+-- Compiling architecture test of tbdecodestage
+-- Compiling configuration cfg_tb_decodestage
+-- Loading entity tbdecodestage
+-- Loading architecture test of tbdecodestage
+-- Loading entity decodestage
+-- Loading entity fd
+-- Loading entity register_generic
+-- Loading configuration cfg_decodestage_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbFWU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbFWU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package define
+-- Compiling entity tb_fwu
+-- Compiling architecture test of tb_fwu
+-- Compiling configuration cfg_tb_fwu
+-- Loading entity tb_fwu
+-- Loading architecture test of tb_fwu
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading entity fwu
+-- Loading configuration cfg_fwu_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/ifidReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/ifidReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity ifidreg
+-- Compiling architecture structural of ifidreg
+-- Compiling configuration cfg_ifidreg_structural
+-- Loading entity ifidreg
+-- Loading architecture structural of ifidreg
+-- Loading entity register_enable
+-- Loading configuration cfg_register_enable
+
+} {} {}} /home/isa11/Desktop/RISCV/src/registerFile.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/registerFile.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity register_file
+-- Compiling architecture behavioral of register_file
+-- Compiling configuration cfg_register_file_behavioral
+-- Loading entity register_file
+-- Loading architecture behavioral of register_file
+
+} {} {}} /home/isa11/Desktop/RISCV/src/aluController.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/aluController.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity alucontroller
+-- Compiling architecture behavioral of alucontroller
+-- Compiling configuration cfg_alucontroller_behavioral
+-- Loading entity alucontroller
+-- Loading architecture behavioral of alucontroller
+
+} {} {}} /home/isa11/Desktop/RISCV/src/ImmediateExtender.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/ImmediateExtender.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package define
+-- Compiling entity immextender
+-- Compiling architecture behavioral of immextender
+-- Compiling configuration cfg_immextender_behavioral
+-- Loading entity immextender
+-- Loading architecture behavioral of immextender
+
+} {} {}} /home/isa11/Desktop/RISCV/src/inverter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/inverter.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity iv
+-- Compiling architecture behavioral of iv
+-- Compiling configuration cfg_iv_behavioral
+-- Loading entity iv
+-- Loading architecture behavioral of iv
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbIRAM.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbIRAM.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_iram
+-- Compiling architecture test of tb_iram
+-- Compiling configuration cfg_tb_iram
+-- Loading entity tb_iram
+-- Loading architecture test of tb_iram
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Loading package define
+-- Loading entity iram
+-- Loading configuration cfg_iram_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/mux21Generic.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/mux21Generic.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity mux21_generic
+-- Compiling architecture behavioral of mux21_generic
+-- Compiling architecture structural of mux21_generic
+-- Loading entity mux21_generic
+-- Compiling configuration cfg_mux21_generic_behavioral
+-- Loading entity mux21_generic
+-- Loading architecture behavioral of mux21_generic
+-- Compiling configuration cfg_mux21_generic_structural
+-- Loading entity mux21_generic
+-- Loading architecture structural of mux21_generic
+-- Loading entity iv
+-- Loading entity nd2
+-- Loading configuration cfg_iv_behavioral
+-- Loading configuration cfg_nd2_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/FWU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/FWU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity fwu
+-- Compiling architecture behavioral of fwu
+-- Compiling configuration cfg_fwu_behavioral
+-- Loading entity fwu
+-- Loading architecture behavioral of fwu
+
+} {} {}} /home/isa11/Desktop/RISCV/src/registerEnable.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/registerEnable.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity register_enable
+-- Compiling architecture beahvioral of register_enable
+-- Compiling configuration cfg_register_enable
+-- Loading entity register_enable
+-- Loading architecture beahvioral of register_enable
+
+} {} {}} /home/isa11/Desktop/RISCV/src/RISC-V.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/RISC-V.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity risc_v
+-- Compiling architecture structural of risc_v
+-- Compiling configuration cfg_riscv_structural
+-- Loading entity risc_v
+-- Loading architecture structural of risc_v
+-- Loading entity risc_vdatapath
+-- Loading entity datamem
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Loading entity iram
+-- Loading configuration cfg_iram_behavioral
+-- Loading configuration cfg_datamem_behavioral
+-- Loading configuration cfg_riscvdatapath_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/fetchStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/fetchStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity fetchstage
+-- Compiling architecture structural of fetchstage
+-- Compiling configuration cfg_fetchstage_structural
+-- Loading entity fetchstage
+-- Loading architecture structural of fetchstage
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbregisterGeneric.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbregisterGeneric.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_register_generic
+-- Compiling architecture test of tb_register_generic
+-- Compiling configuration cfg_tb_register_generic
+-- Loading entity tb_register_generic
+-- Loading architecture test of tb_register_generic
+-- Loading entity register_generic
+-- Loading configuration cfg_register_generic_structural_sync
+
+} {} {}} /home/isa11/Desktop/RISCV/src/datamem.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/datamem.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity datamem
+-- Compiling architecture behavioral of datamem
+-- Compiling configuration cfg_datamem_behavioral
+-- Loading entity datamem
+-- Loading architecture behavioral of datamem
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbRISC-V.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbRISC-V.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity tbrisc_v
+-- Compiling architecture test of tbrisc_v
+-- Compiling configuration cfg_tb_risc_v
+-- Loading entity tbrisc_v
+-- Loading architecture test of tbrisc_v
+-- Loading entity risc_v
+-- Loading configuration cfg_riscv_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbregisterEnable.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbregisterEnable.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_register_enable
+-- Compiling architecture test of tb_register_enable
+-- Compiling configuration cfg_tb_register_enable
+-- Loading entity tb_register_enable
+-- Loading architecture test of tb_register_enable
+-- Loading entity register_enable
+-- Loading configuration cfg_register_enable
+
+} {} {}} /home/isa11/Desktop/RISCV/src/memwbReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/memwbReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity memwbreg
+-- Compiling architecture structural of memwbreg
+-- Compiling configuration cfg_memwbreg_structural
+-- Loading entity memwbreg
+-- Loading architecture structural of memwbreg
+-- Loading entity register_generic
+-- Loading entity fd
+-- Loading configuration cfg_fd_sync
+-- Loading configuration cfg_register_generic_structural_sync
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tb_datamem.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tb_datamem.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_datamem
+-- Compiling architecture test of tb_datamem
+-- Compiling configuration cfg_tb_datamem
+-- Loading entity tb_datamem
+-- Loading architecture test of tb_datamem
+-- Loading entity datamem
+-- Loading configuration cfg_datamem_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbidexReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbidexReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbidexreg
+-- Compiling architecture test of tbidexreg
+-- Compiling configuration cfg_tb_idexreg
+-- Loading entity tbidexreg
+-- Loading architecture test of tbidexreg
+-- Loading entity idexreg
+-- Loading configuration cfg_idexreg_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbcontrolUnit.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbcontrolUnit.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity tb_controlunit
+-- Compiling architecture test of tb_controlunit
+-- Compiling configuration cfg_tb_controlunit
+-- Loading entity tb_controlunit
+-- Loading architecture test of tb_controlunit
+-- Loading entity controlunit
+-- Loading configuration cfg_controlunit_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbHDU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbHDU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package define
+-- Compiling entity tb_hdu
+-- Compiling architecture test of tb_hdu
+-- Compiling configuration cfg_tb_hdu
+-- Loading entity tb_hdu
+-- Loading architecture test of tb_hdu
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading entity hdu
+-- Loading configuration cfg_hdu_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/decodeStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/decodeStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity decodestage
+-- Compiling architecture structural of decodestage
+-- Compiling configuration cfg_decodestage_structural
+-- Loading entity decodestage
+-- Loading architecture structural of decodestage
+-- Loading entity register_file
+-- Loading package define
+-- Loading entity bdu
+-- Loading entity immextender
+-- Loading entity alucontroller
+-- Loading entity controlunit
+-- Loading entity hdu
+-- Loading configuration cfg_alucontroller_behavioral
+-- Loading configuration cfg_register_file_behavioral
+-- Loading configuration cfg_controlunit_behavioral
+-- Loading configuration cfg_immextender_behavioral
+-- Loading configuration cfg_bdu_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/writebackStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/writebackStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity writebackstage
+-- Compiling architecture structural of writebackstage
+-- Compiling configuration cfg_writebackstage_structural
+-- Loading entity writebackstage
+-- Loading architecture structural of writebackstage
+-- Loading entity mux21_generic
+-- Loading configuration cfg_mux21_generic_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbexmemReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbexmemReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbexmemreg
+-- Compiling architecture test of tbexmemreg
+-- Compiling configuration cfg_tb_exmemreg
+-- Loading entity tbexmemreg
+-- Loading architecture test of tbexmemreg
+-- Loading entity exmemreg
+-- Loading configuration cfg_exmemreg_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/registerGeneric.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/registerGeneric.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity register_generic
+-- Compiling architecture structural_sync of register_generic
+-- Compiling configuration cfg_register_generic_structural_sync
+-- Loading entity register_generic
+-- Loading architecture structural_sync of register_generic
+-- Loading entity fd
+-- Loading configuration cfg_fd_sync
+
+} {} {}} /home/isa11/Desktop/RISCV/src/log_pkg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/log_pkg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling package log_pkg
+-- Compiling package body log_pkg
+-- Loading package log_pkg
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbaluController.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbaluController.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity tb_alucontroller
+-- Compiling architecture test of tb_alucontroller
+-- Compiling configuration cfg_tb_alucontroller
+-- Loading entity tb_alucontroller
+-- Loading architecture test of tb_alucontroller
+-- Loading entity alucontroller
+-- Loading configuration cfg_alucontroller_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbImmediateExtender.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbImmediateExtender.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package define
+-- Compiling entity tb_immextender
+-- Compiling architecture test of tb_immextender
+-- Compiling configuration cfg_tb_immextender
+-- Loading entity tb_immextender
+-- Loading architecture test of tb_immextender
+-- Loading entity immextender
+-- Loading configuration cfg_immextender_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbwritebackStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbwritebackStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbwritebackstage
+-- Compiling architecture test of tbwritebackstage
+-- Compiling configuration cfg_tb_writebackstage
+-- Loading entity tbwritebackstage
+-- Loading architecture test of tbwritebackstage
+-- Loading entity writebackstage
+-- Loading configuration cfg_writebackstage_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/idexReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/idexReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity idexreg
+-- Compiling architecture structural of idexreg
+-- Compiling configuration cfg_idexreg_structural
+-- Loading entity idexreg
+-- Loading architecture structural of idexreg
+-- Loading entity register_generic
+-- Loading entity fd
+-- Loading configuration cfg_fd_sync
+-- Loading configuration cfg_register_generic_structural_sync
+
+} {} {}} /home/isa11/Desktop/RISCV/src/controlUnit.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/controlUnit.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity controlunit
+-- Compiling architecture behavioural of controlunit
+-- Compiling configuration cfg_controlunit_behavioral
+-- Loading entity controlunit
+-- Loading architecture behavioural of controlunit
+
+} {} {}} /home/isa11/Desktop/RISCV/src/HDU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/HDU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity hdu
+-- Compiling architecture behavioral of hdu
+-- Compiling configuration cfg_hdu_behavioral
+-- Loading entity hdu
+-- Loading architecture behavioral of hdu
+
+} {} {}} /home/isa11/Desktop/RISCV/src/fd.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/fd.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fd
+-- Compiling architecture sync of fd
+-- Compiling configuration cfg_fd_sync
+-- Loading entity fd
+-- Loading architecture sync of fd
+
+} {} {}} /home/isa11/Desktop/RISCV/src/define.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/define.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling package define
+
+} {} {}} /home/isa11/Desktop/RISCV/src/executionStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/executionStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity executionstage
+-- Compiling architecture structural of executionstage
+-- Compiling configuration cfg_executionstage_structural
+-- Loading entity executionstage
+-- Loading architecture structural of executionstage
+-- Loading entity mux21_generic
+-- Loading entity mux3to1
+-- Loading entity alu
+-- Loading package define
+-- Loading entity fwu
+-- Loading configuration cfg_mux21_generic_structural
+-- Loading configuration cfg_mux3to1_structural
+-- Loading configuration cfg_alu_behavioral
+-- Loading configuration cfg_fwu_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbalu.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbalu.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_alu
+-- Compiling architecture test of tb_alu
+-- Compiling configuration cfg_tb_alu
+-- Loading entity tb_alu
+-- Loading architecture test of tb_alu
+-- Loading entity alu
+-- Loading configuration cfg_alu_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbregisterFile.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbregisterFile.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_register_file
+-- Compiling architecture test of tb_register_file
+-- Compiling configuration cfg_tb_register_file
+-- Loading entity tb_register_file
+-- Loading architecture test of tb_register_file
+-- Loading package numeric_std
+-- Loading entity register_file
+-- Loading configuration cfg_register_file_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/simulation/IRAM.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/simulation/IRAM.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Loading package define
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity iram
+-- Compiling architecture iram_bhe of iram
+-- Compiling configuration cfg_iram_behavioral
+-- Loading entity iram
+-- Loading architecture iram_bhe of iram
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbexecutionStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbexecutionStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity tbexecutionstage
+-- Compiling architecture test of tbexecutionstage
+-- Compiling configuration cfg_tb_executionstage
+-- Loading entity tbexecutionstage
+-- Loading architecture test of tbexecutionstage
+-- Loading entity executionstage
+-- Loading configuration cfg_executionstage_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbmux21Generic.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbmux21Generic.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_mux21_generic
+-- Compiling architecture test of tb_mux21_generic
+-- Compiling configuration cfg_tb_mux21_generic
+-- Loading entity tb_mux21_generic
+-- Loading architecture test of tb_mux21_generic
+-- Loading entity mux21_generic
+-- Loading configuration cfg_mux21_generic_behavioral
+-- Loading configuration cfg_mux21_generic_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbBDU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbBDU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity tb_bdu
+-- Compiling architecture test of tb_bdu
+-- Compiling configuration cfg_tb_bdu
+-- Loading entity tb_bdu
+-- Loading architecture test of tb_bdu
+-- Loading entity bdu
+-- Loading configuration cfg_bdu_behavioral
+
+} {} {}} /home/isa11/Desktop/RISCV/src/alu.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/alu.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity alu
+-- Compiling architecture behavioral of alu
+-- Compiling configuration cfg_alu_behavioral
+-- Loading entity alu
+-- Loading architecture behavioral of alu
+
+} {} {}} /home/isa11/Desktop/RISCV/src/31to1mux.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/31to1mux.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity mux3to1
+-- Compiling architecture structural of mux3to1
+-- Compiling configuration cfg_mux3to1_structural
+-- Loading entity mux3to1
+-- Loading architecture structural of mux3to1
+-- Loading entity mux21_generic
+-- Loading configuration cfg_mux21_generic_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/exmemReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/exmemReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity exmemreg
+-- Compiling architecture structural of exmemreg
+-- Compiling configuration cfg_exmemreg_structural
+-- Loading entity exmemreg
+-- Loading architecture structural of exmemreg
+-- Loading entity register_generic
+-- Loading entity fd
+-- Loading configuration cfg_fd_sync
+-- Loading configuration cfg_register_generic_structural_sync
+
+} {} {}} /home/isa11/Desktop/RISCV/src/RISC-Vdatapath.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/RISC-Vdatapath.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Loading package define
+-- Compiling entity risc_vdatapath
+-- Compiling architecture structural of risc_vdatapath
+-- Compiling configuration cfg_riscvdatapath_structural
+-- Loading entity risc_vdatapath
+-- Loading architecture structural of risc_vdatapath
+-- Loading entity fetchstage
+-- Loading entity ifidreg
+-- Loading entity decodestage
+-- Loading entity idexreg
+-- Loading entity executionstage
+-- Loading entity exmemreg
+-- Loading entity memwbreg
+-- Loading entity writebackstage
+-- Loading configuration cfg_idexreg_structural
+-- Loading configuration cfg_ifidreg_structural
+-- Loading configuration cfg_exmemreg_structural
+-- Loading configuration cfg_memwbreg_structural
+-- Loading configuration cfg_fetchstage_structural
+-- Loading configuration cfg_decodestage_structural
+-- Loading configuration cfg_executionstage_structural
+-- Loading configuration cfg_writebackstage_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/globals.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/globals.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Compiling package globals
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbFetchStage.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbFetchStage.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbfetchstage
+-- Compiling architecture test of tbfetchstage
+-- Compiling configuration cfg_tb_fetchstage
+-- Loading entity tbfetchstage
+-- Loading architecture test of tbfetchstage
+-- Loading package define
+-- Loading entity fetchstage
+-- Loading configuration cfg_fetchstage_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tb3to1mux.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tb3to1mux.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tb_mux3to1
+-- Compiling architecture test of tb_mux3to1
+-- Compiling configuration cfg_tb_mux3to1
+-- Loading entity tb_mux3to1
+-- Loading architecture test of tb_mux3to1
+-- Loading entity mux3to1
+-- Loading configuration cfg_mux3to1_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbifidReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbifidReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbifidreg
+-- Compiling architecture test of tbifidreg
+-- Compiling configuration cfg_tb_ifidreg
+-- Loading entity tbifidreg
+-- Loading architecture test of tbifidreg
+-- Loading entity ifidreg
+-- Loading configuration cfg_ifidreg_structural
+
+} {} {}} /home/isa11/Desktop/RISCV/src/BDU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/BDU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package define
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity bdu
+-- Compiling architecture behavioral of bdu
+-- Compiling configuration cfg_bdu_behavioral
+-- Loading entity bdu
+-- Loading architecture behavioral of bdu
+
+} {} {}} /home/isa11/Desktop/RISCV/src/nand2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/nand2.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity nd2
+-- Compiling architecture behavioral of nd2
+-- Compiling configuration cfg_nd2_behavioral
+-- Loading entity nd2
+-- Loading architecture behavioral of nd2
+
+} {} {}} /home/isa11/Desktop/RISCV/src/tbmemwbReg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa11/Desktop/RISCV/src/tbmemwbReg.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Loading package log_pkg
+-- Loading package globals
+-- Compiling entity tbmemwbreg
+-- Compiling architecture test of tbmemwbreg
+-- Compiling configuration cfg_tb_memwbreg
+-- Loading entity tbmemwbreg
+-- Loading architecture test of tbmemwbreg
+-- Loading entity memwbreg
+-- Loading configuration cfg_memwbreg_structural
+
+} {} {}}

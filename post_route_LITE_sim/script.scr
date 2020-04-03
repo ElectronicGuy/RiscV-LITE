@@ -1,0 +1,14 @@
+vlib work
+
+vcom -93 -work ./work ../src/define.vhd
+vcom -93 -work ./work ../src/log_pkg.vhd
+vcom -93 -work ./work ../src/globals.vhd
+vcom -93 -work ./work ../src/datamem.vhd
+vcom -93 -work ./work ./IRAM.vhd
+
+vlog -work ./work ./RISCV_LITE.v
+
+vlog -work ./work ./tbRISC-VLITE.v
+
+vsim -L /software/dk/nangate45/verilog/msim6.2g work.tb_riscvlite
+
